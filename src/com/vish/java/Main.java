@@ -16,6 +16,13 @@ public class Main {
         System.out.println(factorial(num));
     }
 
+
+    /**
+     * Recursion is calling a method inside itself.
+     *
+     * @param n : a number to check factorial of
+     * @return : factorial of the number till number = 1
+     */
     public static int factorial(int n){
         if(n != 0){
             return n * factorial(n - 1);
